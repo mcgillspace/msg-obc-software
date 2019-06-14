@@ -21,3 +21,15 @@ This helped us compile more than 500 files, thus the size of the zip will be lar
 Regarding errors, I am now getting "Conflicting types for 'HAL_DMA_PollForTransfer' " in the file "stm32f4xx_hal_dma.c". I am investigating how to proceed from here
 
 Note that the compression has been changed from '.zip' to '.7z' as the resulting file is smaller.
+
+14/06/2019 - OBC 0.3
+Changed varible type of the second parameter in the function
+`HAL_StatusTypeDef HAL_DMA_PollTransfer(..., ..., ...)` from `uint32_t` to `HAL_DMA_LevelCompleteTypeDef` inside the file "stm32f4xx_hal_dma.c", which removed the type error we had.
+We also had errors stating the following values were undeclared:
+`HAL_DMA_STATE_BUSY_MEM0, 
+HAL_DMA_STATE_BUSY_MEM1, 
+HAL_DMA_STATE_READY_HALF_MEM0, 
+HAL_DMA_STATE_READY_HALF_MEM1, 
+HAL_DMA_STATE_READY_MEM0, 
+HAL_DMA_STATE_READY_MEM1`
+we followed suit and declared them correspondingly to what was declared at the end of each variable name. This compiled 100 more files. Now, we are encountering 27 errors in the file 'stm32f4xx_hal_iwdg.c' and are working on handling them.
