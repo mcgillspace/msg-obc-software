@@ -1,10 +1,10 @@
 # msg-obc-software
 Segger development for the OBC executable
 
-13/06/2019
+13/06/2019 - OBC 0.1
 Compilation has begun to yield fruit. The build is generating .o files, meaning we are nearing the final stages of clean up to obtain a binary file. After this, we may need to perform tests and modify the binary accordingly.
 
-14/06/2019
+14/06/2019 - OBC 0.2
 Managed to get through the Floating Point Unit errors on files "arm_abs_q15.c", "arm_abs_q31.c", "arm_add_f32.c", and "arm_abs_f32.c" by defining
 `
 #ifndef __FPU_PRESENT 
