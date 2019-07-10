@@ -1,4 +1,3 @@
-# MSG_Software
 # msg-obc-software
 Segger development for the OBC executable
 
