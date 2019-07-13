@@ -50,7 +50,7 @@ Purpose : Global types etc & general purpose utility functions
 #ifndef SEGGER_H            // Guard against multiple inclusion
 #define SEGGER_H
 
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/Config/Global.h"         // Type definitions: U8, U16, U32, I8, I16, I32
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\SystemView\Src\Config\Global.h"         // Type definitions: U8, U16, U32, I8, I16, I32
 
 #if defined(__cplusplus)
 extern "C" {     /* Make sure we have C-declarations in C++ programs */

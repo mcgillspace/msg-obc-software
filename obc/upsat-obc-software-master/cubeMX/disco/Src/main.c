@@ -36,10 +36,10 @@
 #include "fatfs.h"
 
 /* USER CODE BEGIN Includes */
-#include "/home/ignacio/Documents/ecss/services/platform/obc/obc.h"
-#include "/home/ignacio/Documents/ecss/services/platform/obc/hal/stm32/obc_hal.h"
-#include "/home/ignacio/Documents/ecss/services/services/service_utilities.h"
-#include "/home/ignacio/Documents/ecss/services/services/scheduling_service.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\platform\obc\obc.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\platform\obc\hal\stm32\obc_hal.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\service_utilities.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\scheduling_service.h"
 /* USER CODE END Includes */
 
 

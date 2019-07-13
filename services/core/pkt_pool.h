@@ -2,8 +2,8 @@
 #define __PKT_POOL_H
 
 #include <stdint.h>
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/disco/Inc/system.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\disco\Inc\system.h"
 
 #define PKT_TIMEOUT 60000 /*in mseconds*/
 #define PKT_NORMAL  198   /*MAX_PKT_DATA*/

@@ -7,8 +7,8 @@
 #include "service_utilities.h"
 #include "time_management_service.h"
 #include "services.h"
-#include "/home/ignacio/Documents/ecss/services/core/pkt_pool.h"
-#include "/home/ignacio/Documents/ecss/services/core/sysview.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\pkt_pool.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\sysview.h"
 
 #define SCHEDULING_SERVICE_V 0.1
 

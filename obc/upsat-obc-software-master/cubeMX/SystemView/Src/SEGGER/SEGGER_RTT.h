@@ -52,7 +52,7 @@ Purpose : Implementation of SEGGER real-time transfer which allows
 #ifndef SEGGER_RTT_H
 #define SEGGER_RTT_H
 
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/Config/SEGGER_RTT_Conf.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\SystemView\Src\Config\SEGGER_RTT_Conf.h"
 
 /*********************************************************************
 *

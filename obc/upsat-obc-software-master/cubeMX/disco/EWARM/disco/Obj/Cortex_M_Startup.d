@@ -1,2 +1,2 @@
 disco/Obj/Cortex_M_Startup.o: \
-  /usr/share/segger_embedded_studio_for_arm_4.16/samples/Cortex_M_Startup.s
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/samples/Cortex_M_Startup.s

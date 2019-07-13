@@ -2,7 +2,7 @@
 #define __HOUSEKEEPING_H
 
 #include <stdint.h>
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
 
 struct _sat_status {
     uint8_t batt_curr;

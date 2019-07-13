@@ -1930,6 +1930,8 @@ void SEGGER_SYSVIEW_OnIdle(void) {
 *  Parameters
 *    TaskId        - Task ID of created task.
 */
+
+
 void SEGGER_SYSVIEW_OnTaskCreate(unsigned TaskId) {
   U8* pPayload;
   U8* pPayloadStart;

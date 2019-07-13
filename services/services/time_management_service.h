@@ -2,8 +2,8 @@
 #define TIME_MANAGEMENT_H
 
 #include <stdint.h>
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
-#include "/home/ignacio/Documents/ecss/services/core/pkt_pool.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\pkt_pool.h"
 
 #define TM_MONTH_JANUARY        ((uint8_t)0x01U)
 #define TM_MONTH_FEBRUARY       ((uint8_t)0x02U)

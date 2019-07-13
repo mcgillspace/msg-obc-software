@@ -48,8 +48,8 @@ Purpose : Interface between FreeRTOS and SystemView.
 */
 #include "FreeRTOS.h"
 #include "task.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/SEGGER/SEGGER_SYSVIEW.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/OS/SEGGER_SYSVIEW_FreeRTOS.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\SystemView\Src\SEGGER\SEGGER_SYSVIEW.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\SystemView\Src\OS\SEGGER_SYSVIEW_FreeRTOS.h"
 #include "string.h" // Required for memset
 
 
@@ -118,6 +118,7 @@ static U64 _cbGetTime(void) {
 *  Function description
 *    Add a task to the internal list and record its information.
 */
+
 void SYSVIEW_AddTask(U32 xHandle, const char* pcTaskName, unsigned uxCurrentPriority, U32  pxStack, unsigned uStackHighWaterMark) {
   
   if (memcmp(pcTaskName, "IDLE", 5) == 0) {

@@ -58,8 +58,8 @@ Purpose     : Defines defaults for configurable defines used in
 **********************************************************************
 */
 
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/Config/SEGGER_SYSVIEW_Conf.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/Config/SEGGER_RTT_Conf.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\SystemView\Src\Config\SEGGER_SYSVIEW_Conf.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\SystemView\Src\Config\SEGGER_RTT_Conf.h"
 
 #ifdef __cplusplus
 extern "C" {
