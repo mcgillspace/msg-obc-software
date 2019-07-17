@@ -2,8 +2,8 @@
 #define __OBC_HAL_H
 
 #include <stdint.h>
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
-#include "/home/ignacio/Documents/ecss/services/platform/obc/obc.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\platform\obc\obc.h"
 //#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/obc/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h"
 
 SAT_returnState queuePush(tc_tm_pkt *pkt, TC_TM_app_id app_id);

@@ -75,9 +75,9 @@
 #include <intrinsics.h>
 
 /* Scheduler includes. */
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/OS/SEGGER_SYSVIEW_FreeRTOS.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\obc\SystemView\Src\OS\SEGGER_SYSVIEW_FreeRTOS.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\include\task.h"
 #define __ARMVFP__ 4 /* ADDED BY IGNACIO SADA SOLOMON 03/07/2019*/
 #ifndef __ARMVFP__
 	#error This port can only be used when the project options are configured to enable hardware floating point support.

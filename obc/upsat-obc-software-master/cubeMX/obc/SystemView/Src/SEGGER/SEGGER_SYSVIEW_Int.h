@@ -58,7 +58,7 @@ Purpose     : SEGGER SysView internal header.
 */
 
 #include "SEGGER_SYSVIEW.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/Config/SEGGER_SYSVIEW_Conf.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\SystemView\Src\Config\SEGGER_SYSVIEW_Conf.h"
 #include "SEGGER_SYSVIEW_ConfDefaults.h"
 
 #ifdef __cplusplus

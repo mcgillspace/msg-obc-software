@@ -1,8 +1,8 @@
 #ifndef __UPSAT_H
 #define __UPSAT_H
 
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
-#include "/home/ignacio/Documents/ecss/services/core/pkt_pool.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\pkt_pool.h"
 
 #define EV_MAX_BUFFER  1024
 #define EV_BUFFER_PART 205

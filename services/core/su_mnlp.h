@@ -2,12 +2,12 @@
 #define SU_MNLP_H
 
 #include <stdint.h>
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
-#include "/home/ignacio/Documents/ecss/services/services/time_management_service.h"
-#include "/home/ignacio/Documents/ecss/services/services/scheduling_service.h"
-#include "/home/ignacio/Documents/ecss/services/core/upsat.h"
-#include "/home/ignacio/Documents/ecss/services/platform/obc/hal/stm32/uart_hal.h"
-#include "/home/ignacio/Documents/ecss/services/core/sysview.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\time_management_service.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\scheduling_service.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\upsat.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\platform\obc\hal\stm32\uart_hal.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\sysview.h"
 
 #define SU_SCRIPTS_POPU 7
 

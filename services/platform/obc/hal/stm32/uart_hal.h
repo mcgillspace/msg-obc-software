@@ -4,8 +4,8 @@
 #include <stdint.h>
 #include "stm32f4xx_hal.h"
 #include <cmsis_os.h>
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
-#include "/home/ignacio/Documents/ecss/services/core/upsat.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\upsat.h"
 
 void uart_timeout_start(UART_HandleTypeDef *huart);
 

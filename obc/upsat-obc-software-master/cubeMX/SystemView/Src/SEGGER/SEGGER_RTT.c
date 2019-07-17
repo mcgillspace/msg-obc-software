@@ -417,6 +417,7 @@ static unsigned _GetAvailWriteSpace(SEGGER_RTT_BUFFER_UP* pRing) {
 *  Return value
 *    Number of bytes that have been read.
 */
+
 unsigned SEGGER_RTT_ReadNoLock(unsigned BufferIndex, void* pData, unsigned BufferSize) {
   unsigned                NumBytesRem;
   unsigned                NumBytesRead;

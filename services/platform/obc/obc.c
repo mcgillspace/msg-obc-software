@@ -4,9 +4,9 @@
 #include <stdbool.h>
 #include <string.h>
 #include "housekeeping.h"
-#include "/home/ignacio/Documents/ecss/services/services/mass_storage_service.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\mass_storage_service.h"
 #include "wdg.h"
-#include "/home/ignacio/Documents/ecss/services/core/su_mnlp.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\su_mnlp.h"
 
 #undef __FILE_ID__
 #define __FILE_ID__ 15

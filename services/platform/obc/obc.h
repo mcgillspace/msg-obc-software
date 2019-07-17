@@ -2,8 +2,8 @@
 #define __OBC_H
 
 #include <stdint.h>
-#include "/home/ignacio/Documents/ecss/services/services/services.h"
-#include "/home/ignacio/Documents/ecss/services/core/upsat.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\services\services.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\services\core\upsat.h"
 
 //temp
 #define TEST_ARRAY 1024

@@ -52,7 +52,7 @@ Purpose : Interface between FreeRTOS and SystemView.
 #ifndef SYSVIEW_FREERTOS_H
 #define SYSVIEW_FREERTOS_H
 
-#include "SEGGER_SYSVIEW.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\obc\SystemView\Src\SEGGER\SEGGER_SYSVIEW.h"
 
 /*********************************************************************
 *

@@ -97,7 +97,7 @@
 #include <stddef.h>
 #include "core_cmFunc.h"
 
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/OS/SEGGER_SYSVIEW_FreeRTOS.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\obc\SystemView\Src\OS\SEGGER_SYSVIEW_FreeRTOS.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "timers.h"

@@ -74,11 +74,11 @@
 all the API functions to use the MPU wrappers.  That should only be done when
 task.h is included from an application file. */
 #define MPU_WRAPPERS_INCLUDED_FROM_API_FILE
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/SystemView/Src/OS/SEGGER_SYSVIEW_FreeRTOS.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h"
-#include "/home/ignacio/Documents/ecss/obc/upsat-obc-software-master/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\obc\SystemView\Src\OS\SEGGER_SYSVIEW_FreeRTOS.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\include\task.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h"
+#include "C:\Users\Aymar\Desktop\MSG\msg-obc-software\obc\upsat-obc-software-master\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h"
 
 #if ( INCLUDE_xTimerPendFunctionCall == 1 ) && ( configUSE_TIMERS == 0 )
 	#error configUSE_TIMERS must be set to 1 to make the xTimerPendFunctionCall() function available.
