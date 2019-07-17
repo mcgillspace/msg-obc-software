@@ -4,7 +4,7 @@ Segger development for the OBC executable
 **Installations**
 
 -Clone the branch OBC 1.0 of the repository on your local system.
--Install whichever version of SEGGER Embedded Studio is compatible with your machine.
+-Install whichever version of [SEGGER Embedded Studio](https://www.segger.com/products/development-tools/embedded-studio/) is compatible with your machine.
 -Download the [GNU Embedded Toolchain for Arm](https://bit.ly/2ZYjRTN). It is important to know the directory on your system where this toolchain is stored.
 
 **Building the Project**
