@@ -4,7 +4,9 @@ Segger development for the OBC executable
 **Installations**
 
 -Clone the branch OBC 1.0 of the repository on your local system.
+
 -Install whichever version of [SEGGER Embedded Studio](https://www.segger.com/products/development-tools/embedded-studio/) is compatible with your machine.
+
 -Download the [GNU Embedded Toolchain for Arm](https://bit.ly/2ZYjRTN). It is important to know the directory on your system where this toolchain is stored.
 
 **Building the Project**
@@ -15,10 +17,15 @@ Segger development for the OBC executable
 `msg-obc-software/obc/upsat-obc-software-master/cubeMX/disco/EWARM` 
 
 and select `Project.eww`
+
 -Select the *Internal Toolchain* from the Build Configuration, and specify the IAR Installation Directory to be where the GNU Embedded Toolchain for Arm was stored after the download (select the entire GNU Tools ARM Embedded folder)
+
 -Before building the project, there will be files that are imported twice in the project, delete one of the two copies by using *Right click on the Project>Clean* then delete
+
 -Once all files are only referenced once, build the project. Path errors are bound to appear in the `#include` calls. You need to change the path to the file included to the one on your computer.
+
 -Once these path errors are solved, disco.elf may give undefined symbol errors for some functions and data structures. To solve these, create a folder in the project and add the files where the functions and data structures are defined.
+
 -Once these issues have been solved, the project should build successfully.
 
 
