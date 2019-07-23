@@ -102,7 +102,7 @@ You should be able to find a file called *disco.elf* if compilation went success
 
 `//This verifies the file first`
 
-`$ arm-none-eabi-objcopy -0 binary disco.elf disco.bin`
+`$ arm-none-eabi-objcopy -O binary disco.elf disco.bin`
 
 `//If you want to see that the binary file has been created, use the 'ls' command`
 
