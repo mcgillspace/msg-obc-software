@@ -39,6 +39,7 @@ For example, if an undefined symbol is denoted *foo* and is declared in the file
 and 
 
 `../OBC/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portmacro.h`
+
 and then simply `#define` both symbols:
 
 `#define __ISB()`
