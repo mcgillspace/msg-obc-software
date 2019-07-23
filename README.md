@@ -32,6 +32,20 @@ For example, if an undefined symbol is denoted *foo* and is declared in the file
 
 `n  : rtype foo( var1, var2, ...) {//code} `
 
+-Special attention must be given to the undefined symbols *__DSB* and *__ISB*. In order to resolve the undefined symbol errors, one must navigate to  
+
+`.../OBC/cubeMX/obc/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portmacro.h`
+
+and 
+
+`../OBC/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portmacro.h`
+and then simply `#define` both symbols:
+
+`#define __ISB()`
+
+`#define __DSB()`
+
+
 -Once these issues have been solved, the project should build successfully.
 
 
