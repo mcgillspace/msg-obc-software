@@ -24,7 +24,13 @@ and select `Project.eww`
 
 -Once all files are only referenced once, build the project. Path errors are bound to appear in the `#include` calls. You need to change the path to the file included to the one on your computer.
 
--Once these path errors are solved, disco.elf may give undefined symbol errors for some functions and data structures. To solve these, create a folder in the project and add the files where the functions and data structures are defined.
+-Once these path errors are solved, disco.elf may give undefined symbol errors for some functions and data structures. To solve these, create a folder in the project and add the files where the functions and data structures are defined. If adding the files does not fix the issue, you must then `#define` said symbols on the main file if possible. If not on the main file, the `#define` command may be placed before the declaration of the symbol on its corresponding file.
+
+For example, if an undefined symbol is denoted *foo* and is declared in the file *bar.c*, then you must find the call of *foo* and `#define` it right before:
+
+`n-1: #define rtype foo( var1, var2, ... )`
+
+`n  : rtype foo( var1, var2, ...) {//code} `
 
 -Once these issues have been solved, the project should build successfully.
 
