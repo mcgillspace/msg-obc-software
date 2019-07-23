@@ -34,7 +34,9 @@ and select `Project.eww`
 *On Linux (Debian):*
 
 -Open a command line terminal window and and install the _ARM GNU Embedded Toolchain_. First add the repository:
+
 `$ sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa`
+
 When prompted, press the *Enter/Return* key. Next, update your package lists and install the Toolchain:
 
 `$ sudo apt-get update`
