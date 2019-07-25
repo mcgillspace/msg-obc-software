@@ -33,7 +33,7 @@ and select `Project.eww`
 
 ### **Flashing the Project**
 
-*On Linux (Debian):*
+#### *On Linux (Debian):*
 
 -Open a command line terminal window and and install the _ARM GNU Embedded Toolchain_. First add the repository:
 
