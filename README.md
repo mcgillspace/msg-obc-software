@@ -1,3 +1,7 @@
+**McGill Space Group**
+*Executable binary for the OBC of a CubeSat*
+
+
 **Installations**
 
 -Clone the branch OBC 1.1 of the repository on your local system.
