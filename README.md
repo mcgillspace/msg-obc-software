@@ -1,4 +1,4 @@
-**McGill Space Group**
+***McGill Space Group***
 
 *Executable binary for the OBC of a CubeSat*
 
