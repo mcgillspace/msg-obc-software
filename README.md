@@ -2,7 +2,7 @@
 ## *Executable binary for the OBC of a CubeSat*
 
 
-**Installations**
+### **Installations**
 
 -Clone the branch OBC 1.1 of the repository on your local system.
 
@@ -10,7 +10,7 @@
 
 -Download the [GNU Embedded Toolchain for Arm](https://bit.ly/2ZYjRTN). It is important to know the directory on your system where this toolchain is stored.
 
-**Building the Project**
+### **Building the Project**
 
 -To build the project, from SEGGER Embedded Studio, select *File>Import Project>Import IAR EWARM Project...*
 
@@ -31,7 +31,7 @@ and select `Project.eww`
 -Once these issues have been solved, the project should build successfully.
 
 
-**Flashing the Project**
+### **Flashing the Project**
 
 *On Linux (Debian):*
 
