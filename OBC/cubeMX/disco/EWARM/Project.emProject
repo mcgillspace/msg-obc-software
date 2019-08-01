@@ -3,11 +3,8 @@
   <project Name="disco">
     <configuration
       Name="Common"
-      arm_architecture="v7EM"
       arm_core_type="Cortex-M4"
       arm_endian="Little"
-      arm_fp_abi="Hard"
-      arm_fpu_type="FPv4-SP-D16"
       arm_linker_variant="SEGGER"
       arm_simulator_memory_simulation_parameter="RX 08000000,00100000,FFFFFFFF;RWX 20000000,00020000,CDCDCDCD"
       arm_target_device_name="STM32F405RG"
@@ -15,7 +12,7 @@
       debug_start_from_entry_point_symbol="No"
       debug_target_connection="J-Link"
       link_linker_script_file="$(StudioDir)/samples/SEGGER_Flash.icf"
-      linker_section_placements_segments="FLASH RX 0x08000000 0x00100000;RAM RWX 0x20000000 0x00020000"
+      linker_section_placements_segments="FLASH1 RX 0x08000000 0x00100000;RAM1 RWX 0x20000000 0x00020000"
       project_directory=""
       project_type="Executable" />
     <folder Name="Internal Files">
@@ -24,17 +21,12 @@
     </folder>
     <configuration
       CMSIS_CORE="Yes"
-      Connection="USB"
       Name="disco"
-      arm_assembler_variant="gcc"
-      arm_target_interface_type="JTAG"
       build_intermediate_directory="disco/Obj"
       build_output_directory="disco/Exe"
       c_preprocessor_definitions="USE_HAL_DRIVER;STM32F405xx"
       c_user_include_directories=";./../Inc;./../Drivers/STM32F4xx_HAL_Driver/Inc;./../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;./../Middlewares/Third_Party/FatFs/src/drivers;./../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F;./../Middlewares/Third_Party/FatFs/src;./../Middlewares/Third_Party/FreeRTOS/Source/include;./../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;./../Drivers/CMSIS/Include;./../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
-      debug_target_connection="Simulator"
-      gcc_c_language_standard="gnu11"
-      linker_output_format="None" />
+      debug_target_connection="Simulator" />
     <folder Name="Application">
       <folder Name="EWARM">
         <file file_name="./../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/iar/startup_stm32f405xx.s">
@@ -63,18 +55,18 @@
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c" />
-        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c" />
-        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" />
+        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" />
+        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" />
+        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" />
-        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" />
-        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" />
+        <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" />
         <file file_name="./../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c" />
@@ -83,8 +75,8 @@
     <folder Name="Middlewares">
       <folder Name="FatFs">
         <file file_name="./../Middlewares/Third_Party/FatFs/src/diskio.c" />
-        <file file_name="./../Middlewares/Third_Party/FatFs/src/ff.c" />
         <file file_name="./../Middlewares/Third_Party/FatFs/src/option/syscall.c" />
+        <file file_name="./../Middlewares/Third_Party/FatFs/src/ff.c" />
         <file file_name="./../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c" />
         <file file_name="./../Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c" />
       </folder>
@@ -103,9 +95,9 @@
         <file file_name="./../Middlewares/Third_Party/FreeRTOS/Source/queue.c" />
       </folder>
     </folder>
-    <folder Name="EXtras">
-      <file file_name="../../obc/SystemView/Src/SEGGER/SEGGER_SYSVIEW.c" />
-      <file file_name="../../obc/SystemView/Src/SEGGER/SEGGER_SYSVIEW.h" />
+    <folder Name="Extra_files">
+      <file file_name="../../SystemView/Src/SEGGER/SEGGER_SYSVIEW.c" />
+      <file file_name="../../SystemView/Src/SEGGER/SEGGER_SYSVIEW.h" />
       <file file_name="../../SystemView/Src/SEGGER/SEGGER_RTT.c" />
       <file file_name="../../SystemView/Src/SEGGER/SEGGER_RTT.h" />
       <file file_name="../../SystemView/Src/OS/SEGGER_SYSVIEW_FreeRTOS.c" />

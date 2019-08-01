@@ -1,23 +1,23 @@
 disco/Obj/cmsis_os.o: \
- /home/ignacio/Documents/McGilllSpaceGroup/OBC/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/string.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/__crossworks.h \
- /home/ignacio/Documents/McGilllSpaceGroup/OBC/cubeMX/disco/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/stdint.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/stddef.h \
+ C:\Users\Aymar\Desktop\MSG\msg-obc-software\OBC\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/string.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/__crossworks.h \
+ C:\Users\Aymar\Desktop\MSG\msg-obc-software\OBC\cubeMX\disco\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/stdint.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/stddef.h \
  ../Drivers/CMSIS/Include/core_cmFunc.h \
  ../Drivers/CMSIS/Include/cmsis_gcc.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/SEGGER_SYSVIEW_FreeRTOS.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/../SEGGER/SEGGER_SYSVIEW.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/../SEGGER/SEGGER.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/../SEGGER/../Config/Global.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\os\segger_sysview_freertos.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\segger\segger_sysview.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\segger\SEGGER.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\config\global.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Inc/FreeRTOSConfig.h ../Inc/mxconstants.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portmacro.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/intrinsics.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/intrinsics.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \

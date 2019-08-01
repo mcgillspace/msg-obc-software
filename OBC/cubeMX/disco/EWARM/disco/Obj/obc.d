@@ -1,32 +1,31 @@
 disco/Obj/obc.o: \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/obc.c \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/obc.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/stdint.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../services/services.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/stdio.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/__crossworks.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/stdbool.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/string.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../services/subsystems_ids.h \
+ C:\Users\Aymar\Desktop\MSG\msg-obc-software\Services\platform\obc\obc.c \
+ C:\Users\Aymar\Desktop\MSG\msg-obc-software\Services\platform\obc\obc.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/stdint.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\services.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/stdio.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/__crossworks.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/stdbool.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/string.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\subsystems_ids.h \
  ../Inc/system.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/upsat.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/services.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/pkt_pool.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/housekeeping.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../services/mass_storage_service.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../services/services.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/wdg.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/su_mnlp.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/time_management_service.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/services.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/../core/pkt_pool.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/scheduling_service.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/stdlib.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/service_utilities.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/time_management_service.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../services/../core/sysview.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/upsat.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../platform/obc/hal/stm32/uart_hal.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\upsat.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\services.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\pkt_pool.h \
+ C:\Users\Aymar\Desktop\MSG\msg-obc-software\Services\platform\obc\housekeeping.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\mass_storage_service.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\services.h \
+ C:\Users\Aymar\Desktop\MSG\msg-obc-software\Services\platform\obc\wdg.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\su_mnlp.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\time_management_service.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\pkt_pool.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\scheduling_service.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/stdlib.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\service_utilities.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\time_management_service.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\sysview.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\upsat.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\platform\obc\hal\stm32\uart_hal.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Inc/stm32f4xx_hal_conf.h ../Inc/mxconstants.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -62,19 +61,19 @@ disco/Obj/obc.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/stddef.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/stddef.h \
  ../Drivers/CMSIS/Include/core_cmFunc.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/SEGGER_SYSVIEW_FreeRTOS.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/../SEGGER/SEGGER_SYSVIEW.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/../SEGGER/SEGGER.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/../../../../../SystemView/Src/OS/../SEGGER/../Config/Global.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\os\segger_sysview_freertos.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\segger\segger_sysview.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\segger\SEGGER.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\obc\cubemx\systemview\src\config\global.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Inc/FreeRTOSConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portmacro.h \
- /usr/share/segger_embedded_studio_for_arm_4.16/include/intrinsics.h \
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/include/intrinsics.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
@@ -85,6 +84,6 @@ disco/Obj/obc.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../platform/obc/hal/stm32/../../../../services/services.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/../platform/obc/hal/stm32/../../../../core/upsat.h \
- /home/ignacio/Documents/McGilllSpaceGroup/Services/platform/obc/../../core/sysview.h
+ c:\users\aymar\desktop\msg\msg-obc-software\services\services\services.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\upsat.h \
+ c:\users\aymar\desktop\msg\msg-obc-software\services\core\sysview.h
