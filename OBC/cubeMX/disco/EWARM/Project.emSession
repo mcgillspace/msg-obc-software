@@ -1,7 +1,7 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="" active_group="Breakpoints">
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
   <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
@@ -43,7 +43,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="61" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" selected="1" top="46" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="61" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" selected="1" top="29" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="disco" fileDialogDefaultFilter="" autoConnectTarget="J-Link" buildConfiguration="disco" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/Aymar/Desktop/MSG/msg-obc-software/Services/platform/obc" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="disco" fileDialogDefaultFilter="*.c" autoConnectTarget="Simulator" buildConfiguration="disco" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/Aymar/Desktop/MSG/msg-obc-software/Services/platform/obc" debugSearchPath="" autoConnectCapabilities="4543"/>
 </session>
