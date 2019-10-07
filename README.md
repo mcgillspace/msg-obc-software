@@ -4,7 +4,7 @@
 
 ### **Installations**
 
--Clone the branch OBC 1.1 of the repository on your local system.
+-Clone the branch OBC 1.12 of the repository on your local system.
 
 -Install whichever version of [SEGGER Embedded Studio](https://www.segger.com/products/development-tools/embedded-studio/) is compatible with your machine.
 
@@ -94,3 +94,15 @@ Make sure you have plugged your microchip into a ST-Link device (such as the *ST
 If all went well, the *ST-link utility* should end with a message such as:
 
 `yyyy-mm-ddThh:mm:ss INFO common.c: Flash written and verified! jolly good!`
+
+#### *On Windows 10:*
+
+-Download the [ST-Link Utility](https://www.st.com/en/development-tools/stsw-link004.html)
+
+-Right click on the project in SEGGER and select `Options`. In the `Debugger` options, set the `Target Connection` to `Simulator`. Then build the project with these options. This is to make sure we have the *disco.bin* file that we will flash on ST-Link.
+
+-Plug the obc chip into the ST-Link device. Connect both devices to your computer (the ST-Link to flash and the microchip to power it). Open the downloaded *ST-Link Utility* and select the *Connect to the target* icon (Or click on *Target* and select *Connect*).
+
+Select the *Open file* icon (Or *File>Open file...*), navigate to `OBC\cubeMX\disco\EWARM\disco\Exe` in the local repository and select the `disco.bin` file.
+
+Select the *Program verify* icon (Or *Target>Program & Verify*) and set the start adress to `0x8000000`. Once it is done, there should appear a message saying `Verification...OK`

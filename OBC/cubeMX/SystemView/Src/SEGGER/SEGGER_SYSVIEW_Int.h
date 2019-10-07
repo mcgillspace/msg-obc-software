@@ -58,7 +58,7 @@ Purpose     : SEGGER SysView internal header.
 */
 
 #include "SEGGER_SYSVIEW.h"
-#include "SEGGER_SYSVIEW_Conf.h"
+#include "../Config/SEGGER_SYSVIEW_Conf.h"
 #include "SEGGER_SYSVIEW_ConfDefaults.h"
 
 #ifdef __cplusplus

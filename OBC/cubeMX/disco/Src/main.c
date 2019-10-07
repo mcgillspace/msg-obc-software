@@ -43,33 +43,43 @@
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
-ADC_HandleTypeDef hadc1;
+ADC_HandleTypeDef hadc1; //This variable is a structure for analog to digital converter handle. It has instance variables
+                         //Instance, Init, NbrOfCurrentConversionRank, DMA_Handle, Lock, State, and ErrorCode (The structure is
+                         //defined in the file stm32f4xx_hal_adc.h)
 
-RTC_HandleTypeDef hrtc;
+RTC_HandleTypeDef hrtc; //This variable is a structure for real-time clock handle. It has instance variables Instance, Init,
+                        //Lock, and State (The structure is defined in the file stm32f4xx_hal_rtc.h)
 
-SD_HandleTypeDef hsd;
-HAL_SD_CardInfoTypedef SDCardInfo;
-TaskFunction_t ToggleLED_Timer1(void*);
-TaskFunction_t ToggleLED_Timer2(void*);
-TaskFunction_t ToggleLED_Timer3(void*);
+SD_HandleTypeDef hsd; //This variable is a structure for SDIO handle. It has instance variables Instance, Init, Lock, CardType,
+                      //RCA, CSD[4], CID[4], SdTransferCplt, SdTransferErr, DmaTransferCplt, SdOperation, hdmarx, and hdmatx
+                      //(The structure is defined in the file stm32f4xx_hal_sd.h)
+HAL_SD_CardInfoTypedef SDCardInfo; //This variable is a structure for SD card information. It has instance variables SD_csd,
+                                   //SD_cid, CardCapacity, CardBlockSize, RCA, and CardType (The structure is defined in the file
+                                   //stm32f4xx_hal_sd.h)
+
+TaskFunction_t ToggleLED_Timer1(void*); //These 4 variables are of type TaskFunction_t, which is a FreeRTOS defined type
+TaskFunction_t ToggleLED_Timer2(void*); //that is used when implementing tasks. It allows to pass information of any type
+TaskFunction_t ToggleLED_Timer3(void*); //into the task.
 TaskFunction_t ToggleLED_Timer4(void*);
-SPI_HandleTypeDef hspi1;
-SPI_HandleTypeDef hspi2;
-SPI_HandleTypeDef hspi3;
 
-UART_HandleTypeDef huart4;
-UART_HandleTypeDef huart1;
-UART_HandleTypeDef huart2;
+SPI_HandleTypeDef hspi1; //These 3 variables are structures for Serial Peripheral Interface (SPI) handle. They have instance
+SPI_HandleTypeDef hspi2; //variables Instance, Init, pTxBuffPtr, TxXferSize, ErrorCode, and 10 other variables (Refer to the file
+SPI_HandleTypeDef hspi3; //stm32f4xx_hal_spi.h where the structure is defined for more details)
+
+UART_HandleTypeDef huart4; //These 5 variables are structures for UART handle. They have instance variables Instance, Init,
+UART_HandleTypeDef huart1; //pTxBuffPtr, TxXferSize, TxXferCount, pRxBuffPtr, RxXferSize, RxXferCount, hdmatx, hdmarx,
+UART_HandleTypeDef huart2; //Lock, gState, RxState, and ErrorCode (The structure is defined in the file stm32f4xx_hal_uart.h)
 UART_HandleTypeDef huart3;
 UART_HandleTypeDef huart6;
-DMA_HandleTypeDef hdma_uart4_tx;
-DMA_HandleTypeDef hdma_usart1_tx;
-DMA_HandleTypeDef hdma_usart2_tx;
+
+DMA_HandleTypeDef hdma_uart4_tx; //These 5 variables are structures for Direct Memory Adress (DMA) handle. They have
+DMA_HandleTypeDef hdma_usart1_tx;//14 instance variables including Instance, Init, State, ErrorCode, and StreamIndex
+DMA_HandleTypeDef hdma_usart2_tx;//(The structure is defined in the file stm32f4xx_hal_dma.h)
 DMA_HandleTypeDef hdma_usart3_tx;
 DMA_HandleTypeDef hdma_usart6_tx;
 
-osThreadId defaultTaskHandle;
-osThreadId HKHandle;
+osThreadId defaultTaskHandle; //These 2 variables are of type osThreadId, which is defined in csmis_os.h as being the type
+osThreadId HKHandle;          //TaskHandle_t, a FreeRTOS defined type used to reference (via a pointer) tasks created.
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/

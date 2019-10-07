@@ -1,2 +1,2 @@
 disco/Obj/SEGGER_THUMB_Startup.o: \
- /usr/share/segger_embedded_studio_for_arm_4.16/samples/SEGGER_THUMB_Startup.s
+ C:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.18/samples/SEGGER_THUMB_Startup.s

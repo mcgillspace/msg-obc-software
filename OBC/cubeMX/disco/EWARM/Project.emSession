@@ -1,0 +1,49 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="Project"/>
+  <ProjectSessionItem path="Project;disco"/>
+  <ProjectSessionItem path="Project;disco;Application"/>
+  <ProjectSessionItem path="Project;disco;Application;User"/>
+  <ProjectSessionItem path="Project;disco;Extra_files"/>
+  <ProjectSessionItem path="Project;disco;Middlewares"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="61" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" selected="1" top="29" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="disco" fileDialogDefaultFilter="*.c" autoConnectTarget="Simulator" buildConfiguration="disco" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/Aymar/Desktop/MSG/msg-obc-software/Services/platform/obc" debugSearchPath="" autoConnectCapabilities="4543"/>
+</session>
